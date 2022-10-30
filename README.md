@@ -1,6 +1,6 @@
 # ts-quickfix
 
-Populate a [quickfix](https://neovim.io/doc/user/quickfix.html) list with [Tree-Sitter](https://tree-sitter.github.io/tree-sitter/) queries
+Neovim plugin to populate a [quickfix](https://neovim.io/doc/user/quickfix.html) list with [Tree-Sitter](https://tree-sitter.github.io/tree-sitter/) queries
 
 
 ## Installation
