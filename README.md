@@ -18,8 +18,18 @@ require('ts-quickfix').query([[
 ]])
 ```
 
+This example is shipped with `require('ts-quickfix').todo()`.
+
 You can also define queries in your `queries` folder and reference them by name:
 
 ```lua
 require('ts-quickfix').query_name('myName')
+```
+
+### Note:
+
+It makes sense to define user commands for your favorite queries, e.g.
+
+```lua
+vim.api.nvim_create_user_command('Todo', require('ts-quickfix').todo, {})
 ```
