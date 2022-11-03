@@ -6,7 +6,7 @@ Neovim plugin to populate a [quickfix](https://neovim.io/doc/user/quickfix.html)
 ## Installation
 
 ```lua
-use 'David-Kunz/ts-quickfix
+use 'David-Kunz/ts-quickfix'
 ```
 
 ## Usage
